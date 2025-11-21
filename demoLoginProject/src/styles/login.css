@@ -1,0 +1,50 @@
+
+.login-wrapper {
+  background: linear-gradient(135deg, #e0f2fe, #bfdbfe);
+}
+
+/* Login card */
+.login-box {
+  width: 950px;
+  max-width: 95%;
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* Left image section */
+.login-wrapper {
+  background-color: #eaf3ff; /* light bluish theme */
+}
+
+.btn-primary {
+  background-color: #3b82f6; /* blue button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+/* Form input fields */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+/* Button color */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 768px) {
+  .login-box {
+    margin: 20px;
+  }
+}

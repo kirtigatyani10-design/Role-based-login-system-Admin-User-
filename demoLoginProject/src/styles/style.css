@@ -1,0 +1,53 @@
+.signup-wrapper {
+  background: linear-gradient(to right, #e8f3ff, #ffffff);
+  padding: 20px;
+  width: 100%;
+}
+
+.my-font {
+  font-family: "Alex Brush", cursive;
+  font-size: 40px !important;
+  font-weight: 400;
+}
+
+.signup-card {
+  width: 380px;
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 145, 255, 0.15);
+  border: 1px solid rgba(0, 123, 255, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.input-box {
+  border-radius: 12px !important;
+  padding: 12px !important;
+  border: 1px solid #cfe8ff !important;
+}
+
+.input-box:focus {
+  border-color: #007bff !important;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3) !important;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #007bff, #005fcc);
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #006ee6, #004cb3);
+  transform: translateY(-1px);
+}
+
+/* Fade Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

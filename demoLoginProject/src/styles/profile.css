@@ -1,0 +1,90 @@
+
+/* 🌙 PROFILE PAGE STYLING */
+.profile-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  transition: all 0.3s ease;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.profile-dark {
+  background-color: #1e1e1e;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.profile-light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.profile-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-photo img {
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo h4 {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.profile-photo p {
+  color: gray;
+  font-size: 14px;
+}
+
+.profile-photo button {
+  margin-top: 10px;
+  width: 140px;
+  font-weight: 500;
+}
+
+/* Form control improvements */
+.form-control {
+  border-radius: 10px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.bg-dark.text-light {
+  background-color: #2c2c2c !important;
+  color: #fff !important;
+  border: 1px solid #555 !important;
+}
+
+.bg-dark.text-light:focus {
+  border-color: #007bff !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+/* Buttons hover effect */
+.btn-outline-primary:hover,
+.btn-outline-light:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 20px;
+  }
+}
